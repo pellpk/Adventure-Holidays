@@ -1,0 +1,54 @@
+
+/* centering the text */
+h1 {
+    margin: 200px 400px 0px;
+}
+
+h2 {
+    margin: 0px 400px 0px;
+}
+
+/* setting font */
+body { 
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/* this is from bootstrap */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/* this is from bootstrap */
+.navbar a {
+    min-height: 60px;
+    height: 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* for mobile, this is from bootstrap */
+@media (max-width: 768px) 
+{
+    .navbar {
+        flex-direction: row; 
+        align-items: flex-start;
+        padding: 10px; 
+    }
+
+    .navbar a {
+        font-size: 16px; 
+        margin-right: 0; 
+        margin-bottom: 10px;
+    }
+}

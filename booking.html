@@ -23,8 +23,8 @@
     </h1>
 
         <div class="form-box">
-            <!-- form -->
-            <form method="post">
+            <!-- booking form - action for the submit site -->
+            <form action="submit.html">
                 <div>
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
@@ -46,7 +46,7 @@
                     <input type="date" id="end-date" name="end-date" required>
                 </div>
                 <div>
-                    <label for="additional-people">Additional People:</label>
+                    <label for="additional-people">Additional People:</label> <!-- amount of people -->
                     <select id="addppl" name="addppl" required>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -58,7 +58,7 @@
                     </select>
                 </div>
                 <div>
-                    <label for="adventure">Adventure:</label>
+                    <label for="adventure">Adventure:</label> <!-- type of adventure -->
                     <select id="adventure" name="adventure" required>
                         <option value="mountain-biking">Mountain Biking</option>
                         <option value="lake-fishing">Lake Fishing</option>
@@ -70,19 +70,22 @@
                         <option value="paragliding">Paragliding</option>
                     </select>
                 </div>
-            </form>
         </div>
-        
-            </div>
-            <div>
-                <button type="submit">Book Now</button>
+            <div> <!-- submit button that redirects you -->
+                <button type="submit">Book Now!</button>
             </div>
         </form>
-
     </div>
+
+    <p class="text-center">
+        Please have a look at our itinerary <a href="itinerary.html">here</a>.</p>
+    </p>
     
-    <footer>
+    <!-- centered footer, breaks for styling -->
+    <footer class="text-center">
+        <br><br><br><br><br><br><br><br>
         © Adventure Holidays 2022
+        <br><br>
     </footer>
 </body>
 </html>
